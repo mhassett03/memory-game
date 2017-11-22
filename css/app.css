@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #2e3d49;
+}
+
+body {
+
+    background: #97C9EA;
+    font-family: 'Coda', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #FAFFC4;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.deck {
+    width: 660px;
+    min-height: 680px;
+    background: radial-gradient(circle, #FAFFC4, #97C9EA, #97C9EA);
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #ffffff;
+    opacity: .3;
+    font-size: 0;
+    color: #FFFB83;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck .card.open {
+    background: #02b3e4;
+    cursor: default;
+}
+
+.deck .card.show {
+    font-size: 30px;
+    opacity: 1.0;
+
+}
+
+.deck .card.match {
+    background: #EAF679;
+    color: #FAFFC4;
+    font-size: 60px;
+    opacity: 1.0;
+}
+
+#score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+    color: #3981A5;
+}
+
+#score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    color: #3981A5;
+}
+
+#score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+    color: #3981A5;
+}
+
+#score-panel .restart {
+    float: right;
+    cursor: pointer;
+    color: #3981A5;
+}
+
+.swal2-overlay {
+    background-color: white;
+}
+
+.timers {width: 125px; float: right;}
+.timers .timer {display: inline-block;}
+.timers .timer h3 {margin: 0px;}
+.timers .restart {display: inline-block;}
+.containerdiv {max-width: 690px; width: 100%; margin: 0 auto;}
+.leftdiv {float: left;}
+.clear {clear: both;}
+.font-color {
+  color: white;
+}
