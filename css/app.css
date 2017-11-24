@@ -36,10 +36,10 @@ h1 {
 }
 
 .deck {
-    width: 660px;
-    min-height: 680px;
+    max-width: 660px;
+    max-height: 660px;
     background: radial-gradient(circle, #FAFFC4, #97C9EA, #97C9EA);
-    padding: 32px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -47,9 +47,10 @@ h1 {
     margin: 0 0 3em;
 }
 
-.deck .card {
+.card {
     height: 125px;
     width: 125px;
+    margin: 10px;
     background: #ffffff;
     opacity: .3;
     font-size: 0;
@@ -61,18 +62,17 @@ h1 {
     align-items: center;
 }
 
-.deck .card.open {
+.card.open {
     background: #02b3e4;
     cursor: default;
 }
 
-.deck .card.show {
+.card.show {
     font-size: 30px;
     opacity: 1.0;
-
 }
 
-.deck .card.match {
+.card.match {
     background: #EAF679;
     color: #FAFFC4;
     font-size: 60px;
