@@ -27,7 +27,7 @@ Download the game at https://github.com/mhassett03/memory-game.git
 
 ----
 
-> The advantage of a bad memory is that 
+> "The advantage of a bad memory is that 
 > one enjoys several times the same good 
 > things for the first time.” 
 > ― Friedrich Nietzsche
